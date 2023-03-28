@@ -1,0 +1,35 @@
+
+// 将键绑定放在此文件中以覆盖默认值auto[]
+[
+	{
+		"key": "f6",
+		"command": "workbench.action.problems.focus"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "workbench.view.explorer",
+		"when": "viewContainer.workbench.view.explorer.enabled"
+	},
+	{
+		"key": "ctrl+shift+e",
+		"command": "-workbench.view.explorer",
+		"when": "viewContainer.workbench.view.explorer.enabled"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "-workbench.action.files.newUntitledFile"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "explorer.newFile"
+	},
+	{
+		"key": "alt+o",
+		"command": "outline-map-view.focus"
+	},
+	{
+		"key": "ctrl+x",
+		"command": "-extension.vim_ctrl+x",
+		"when": "editorTextFocus && vim.active && vim.use<C-x> && !inDebugRepl"
+	}
+]
