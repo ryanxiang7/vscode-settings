@@ -39,8 +39,24 @@
 	"editor.stickyScroll.enabled": true,
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
 	"editor.foldingMaximumRegions": 50000,
+	"workbench.colorTheme": "Bearded Theme Black & Diamond",
+	"workbench.productIconTheme": "icons-carbon",
+	"workbench.colorCustomizations": {
+		"editorLineNumber.foreground": "#00A884",
+		"editorLineNumber.activeForeground": "#00A884"
+	},
 	// 禁用斜体
 	"editor.tokenColorCustomizations": {
+		"[Bearded Theme Black & Diamond]": {
+			"textMateRules": [
+				{
+					"scope": "entity.name.tag support.class.component",
+					"settings": {
+						"foreground": "#B78AFF"
+					}
+				}
+			]
+		},
 		"[Bearded Theme Arc Blueberry]": {
 			"textMateRules": [
 				{
@@ -51,6 +67,7 @@
 				}
 			]
 		},
+		// 全局禁用斜体
 		"textMateRules": [
 			{
 				"scope": [
@@ -166,7 +183,7 @@
 	 * @type terminal config
 	 * @author ryan xiang
 	 ***************************************/
-	"terminal.integrated.fontFamily": "Hack NF",
+	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
 	"terminal.integrated.copyOnSelection": true,
 	"terminal.integrated.profiles.windows": {
 		"PowerShell": {
@@ -249,10 +266,9 @@
 	"prettier.bracketSameLine": true,
 	"prettier.semi": false,
 	// eslint
-	"eslint.alwaysShowStatus": true,
 	"eslint.packageManager": "pnpm",
 	"eslint.format.enable": true,
-	// vloar
+	// volar
 	"volar.codeLens.pugTools": true,
 	"volar.codeLens.scriptSetupTools": true,
 	"volar.completion.preferredTagNameCase": "kebab",
@@ -399,8 +415,7 @@
 	"terminal.integrated.customGlyphs": false,
 	"terminal.integrated.gpuAcceleration": "on",
 	"terminal.integrated.smoothScrolling": true,
-	"workbench.colorTheme": "Bearded Theme Arc Blueberry",
-	"workbench.iconTheme": "eq-material-theme-icons-light",
+	"workbench.iconTheme": "bearded-icons",
 	"editor.lineNumbers": "relative",
 	"editor.snippetSuggestions": "top",
 	"prettier.vueIndentScriptAndStyle": true,
@@ -430,5 +445,9 @@
 			"path": "pwsh",
 			"icon": "terminal-powershell"
 		}
-	}
+	},
+	"git.autofetch": true,
+	"terminal.external.linuxExec": "zsh",
+	"terminal.integrated.shellIntegration.suggestEnabled": true,
+	"gitlens.codeLens.scopes": ["document", "containers", "blocks"]
 }
