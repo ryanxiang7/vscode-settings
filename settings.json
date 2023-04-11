@@ -39,7 +39,7 @@
 	"editor.stickyScroll.enabled": true,
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
 	"editor.foldingMaximumRegions": 50000,
-	"workbench.colorTheme": "Bearded Theme Black & Diamond",
+	"workbench.colorTheme": "Bearded Theme HC Flurry",
 	"workbench.productIconTheme": "icons-carbon",
 	"workbench.colorCustomizations": {
 		"editorLineNumber.foreground": "#00A884",
@@ -274,8 +274,8 @@
 	"volar.completion.preferredTagNameCase": "kebab",
 	"volar.preview.transparentGrid": true,
 	// projectManager
-	"projectManager.vscode.baseFolders": ["D:\\Git-repo"],
-	"projectManager.git.baseFolders": ["D:\\Git-repo"],
+	// "projectManager.vscode.baseFolders": ["D:\\Git-repo"],
+	// "projectManager.git.baseFolders": ["D:\\Git-repo"],
 	// code-runner
 	"code-runner.runInTerminal": true,
 	// rust
